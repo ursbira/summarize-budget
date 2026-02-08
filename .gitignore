@@ -1,0 +1,50 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# VSCode
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Ambientes de desenvolvimento
+.env
+
+# Config do projeto
+configproject.json
+
+# Arquivos de dados e testes
+*.xlsx
+*.xls
+*.csv
+*.bat
+*.txt
+
+# Logs do sistema
+logs/*
+!logs/.gitkeep
+*.log
+
+# Deixar cópias de json de relatórios já configurados
+example/
+
+# Relação de itens a serem atualizados no projeto
+todo/
+
+# Pasta de dados de teste local
+bases/
+
+# Pasta para documentação
+doc/
+
+# Arquivos compilados para teste
+compilado/

@@ -1,0 +1,18 @@
+[project]
+name = "summarize-budget"
+version = "0.1.0"
+description = "Sistema de sumarização de orçamentos DRG 2.0 para a Linkie Consultoria"
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [
+    { name = "Ubiratan Rocha da Silva", email = "urs.bira@gmail.com" }
+]
+dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.18.0",
+]

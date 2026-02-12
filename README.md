@@ -67,7 +67,7 @@ e outros que se fizerem necessários.
 **Structure Start**
 
 Estrutura inicial básica (não definitiva) sugerida
-
+```
 summarize-budget/
 ├── bases/              # Arquivos .xlsx de entrada
 ├── doc/                # prompt.md que definiu o problema e apresentou uma solução e leia-me.txt
@@ -84,6 +84,7 @@ summarize-budget/
 ├── README.md
 ├── uv.lock
 └── .gitignore
+```
 
 ### Editor, GUI e Build
 

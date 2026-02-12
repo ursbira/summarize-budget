@@ -1,6 +1,13 @@
+"""
+Módulo de funções auxiliares para o sistema summarize-budget. Inclusive
+configuração de logging.
+Autor: Ubiratan Rocha da Silva
+Data: 12/02/2026
+"""
+
 import logging
 import sys
-from .constants import LOG_DIR, FILE_NAME_LOG
+from package import LOG_DIR, FILE_NAME_LOG
 
 
 def setup_logging():
@@ -24,5 +31,5 @@ def setup_logging():
     )
 
     logger = logging.getLogger("summarize-budget")
-    logger.info("Sistema de Logs inicializado com sucesso.")
+    # logger.info("Sistema de Logs inicializado com sucesso.")
     return logger

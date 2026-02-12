@@ -48,3 +48,6 @@ doc/
 
 # Arquivos compilados para teste
 compilado/
+
+# Pasta de arquivos de saída
+output/

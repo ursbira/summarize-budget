@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Sistema de sumarização de orçamentos DRG 2.0 para a Linkie Consultoria"
 readme = "README.md"
 requires-python = ">=3.14"
+license = { text = "MIT" }
 authors = [
     { name = "Ubiratan Rocha da Silva", email = "urs.bira@gmail.com" }
 ]
